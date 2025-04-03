@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import fontforge
-from eng2hin_dict_115_big import eng2hin_dict_115_big
+from merged_dikt_115big import eng2hin_dict_115_big
 print(eng2hin_dict_115_big)
 languages = (
     "ing",

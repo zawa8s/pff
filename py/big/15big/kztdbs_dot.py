@@ -15,7 +15,7 @@ kztdbs_dot_dikt={
     "k" : "K", "z" : "Z", "t" : "T", "d" : "D", "b" : "B", "s" : "S",
 }
 src15big = "/home/viml/mg/zw8/pff/sfd/big/source15b/"
-# src115big = "/home/viml/mg/zw8/pff/sfd/big/source115b/"
+src115big = "/home/viml/mg/zw8/pff/sfd/big/source115b/"
 for lang in languages:
     font15big = fontforge.open(f"{src15big}/{lang}15b.sfd")
     print(f"lang is {lang} and font15big family name is {font15big.familyname}")
