@@ -5,7 +5,8 @@ pffdir="${zw8dir}/pff"
 smallsfddir="${pffdir}/sfd/small/"
 bigsfddir="${pffdir}/sfd/big/"
 fontdir="${zw8dir}/font"
-thisdir="${pffdir}/py"
+#### thisdir="${pffdir}/py" ######
+thisdir="$(pwd)"
 ############################
 bigttfdir="${fontdir}/bigttf"
 bigwoffdir="${fontdir}/bigwoff"

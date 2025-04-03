@@ -1,9 +1,7 @@
 #!/usr/bin/python3
-
 import os
 import subprocess
 import shutil
-
 # Directory paths
 zw8dir = "/home/viml/mg/zw8"
 pffdir = os.path.join(zw8dir, "pff")
@@ -11,7 +9,6 @@ smallsfddir = os.path.join(pffdir, "sfd", "small")
 bigsfddir = os.path.join(pffdir, "sfd", "big")
 fontdir = os.path.join(zw8dir, "font")
 thisdir = os.path.join(pffdir, "py")
-
 # Font directories
 bigttfdir = os.path.join(fontdir, "bigttf")
 bigwoffdir = os.path.join(fontdir, "bigwoff")
@@ -19,7 +16,6 @@ smallttfdir = os.path.join(fontdir, "smallttf")
 smallwoffdir = os.path.join(fontdir, "smallwoff")
 hsciittfdir = os.path.join(fontdir, "hsciittf")
 hsciiwoffdir = os.path.join(fontdir, "hsciiwoff")
-
 # Create directories
 for directory in [bigttfdir, bigwoffdir, smallttfdir, smallwoffdir, hsciittfdir, hsciiwoffdir]:
     os.makedirs(directory, exist_ok=True)
@@ -84,7 +80,9 @@ for i in big15arr:
 ################## big font variations up
 
 # Return to original directory
-os.chdir(thisdir)
-
+os.chdir(fontdir)
+subprocess.run(["./fonts_linux_install.py"], check=True)
 # Tree command equivalent again
 # subprocess.run(["tree", fontdir], check=True)
+# font install.
+os.chdir(thisdir)
