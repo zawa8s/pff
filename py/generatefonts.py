@@ -5,8 +5,9 @@ import shutil
 # Directory paths
 zw8dir = "/home/viml/mg/zw8"
 pffdir = os.path.join(zw8dir, "pff")
-smallsfddir = os.path.join(pffdir, "sfd", "small")
-bigsfddir = os.path.join(pffdir, "sfd", "big")
+sfddir = os.path.join(pffdir, "sfd")
+smallsfddir = os.path.join(sfddir, "small")
+bigsfddir = os.path.join(sfddir, "big")
 fontdir = os.path.join(zw8dir, "font")
 thisdir = os.path.join(pffdir, "py")
 # Font directories
@@ -58,19 +59,19 @@ for i in big15arr:
     print(f"generating ttf/woff2 fonts in {currbigdir}")    
     # Change to the current big font directory
     os.chdir(os.path.join(bigsfddir, currbigdir))    
-    # Remove lookup lines from SFD files
+    # remove lookup lines from .sfd files
     for sfd_file in [f for f in os.listdir('.') if f.endswith(f'{i}.sfd')]:
         with open(sfd_file, 'r') as f:
             lines = f.readlines()        
         lines = [line for line in lines if 'lookup' not in line]        
         with open(sfd_file, 'w') as f:
             f.writelines(lines)    
-    # Run conversion script
+    # run conversion script
     subprocess.run(["./convert.pe"] + [f for f in os.listdir('.') if f.endswith(f'{i}.sfd')], check=True)    
-    # Create directories for current font variation
+    # create directories for current font variation
     os.makedirs(os.path.join(bigttfdir, i), exist_ok=True)
     os.makedirs(os.path.join(bigwoffdir, i), exist_ok=True)    
-    # Move generated font files
+    # move generated font files
     for ext in ['.ttf', '.woff2']:
         for font_file in [f for f in os.listdir('.') if f.endswith(f'{i}{ext}')]:
             if ext == '.ttf':
