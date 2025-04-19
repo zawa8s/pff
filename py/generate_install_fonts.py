@@ -14,7 +14,7 @@ fontroot = f"{zw8dir}/font/"
 encodings = ("englodotw8", "englosoftw8", "onlyw8")
 ftypes = ("asc", "utf", "mono")
 languages = (
-    "ing", "hindi", "bangla","guzrati","gurmukhi","oriya", "korean",
+    "inglish", "hindi", "bangla","guzrati","gurmukhi","oriya", "korean",
     "telugu","tamil","kannada","malayalam","sinhala",
     "binaryw","heks",
 )
