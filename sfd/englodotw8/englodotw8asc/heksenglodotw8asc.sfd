@@ -1,7 +1,7 @@
 SplineFontDB: 3.2
-FontName: heksenglodotw8utf
-FullName: heksenglodotw8utf
-FamilyName: heksenglodotw8utf
+FontName: heksenglodotw8asc
+FullName: heksenglodotw8asc
+FamilyName: heksenglodotw8asc
 Weight: Regular
 Copyright: github.com/zawa8/font hscii 4finger1thumb 4f1t maths
 Version: w0.000
@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1633362791
-ModificationTime: 1744832693
+ModificationTime: 1745097673
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -96,13 +96,13 @@ ShortTable: maxp 16
   4
   1
 EndShort
-LangName: 1033 "github.com/zawa8/font hscii4(4phinger maths) hscii5" "" "regular" "heksenglodotw8utf hscii 4finger1thumb 4f1t maths 2025-04-18 0.000;zawa;hscii5 heksenglodotw8utf-regular" "" "wersion 0.0000" "" "hscii5/4 fonts 5/4phingrmaths" "simbxls hscii github zawa8" "wimxl kumar merged and changed fonts" "merged changed by zawa8 pff(python fontforge)" "https://github.com/zawa8/font" "https://github.com/zawa8/pff" "license file present in : https://github.com/zawa8/font/" "https://github.com/zawa8/font"
-LangName: 16393 "" "" "" "heks115b 0.000;zawa;hscii5 binaryw15s-regular" "" "wersion 0.0000" "" "hscii5/4 fonts 5/4phingrmaths" "simbAls hscii4 github zawa8" "wimxl kumar merged and changed fonts" "merged changed by zawa8 pff(python fontforge)" "https://github.com/zawa8/font" "https://github.com/zawa8/pff" "please ask phur help/kuery at: https://github.com/zawa8/font/" "https://github.com/zawa8/font"
+LangName: 1033 "github.com/zawa8/font hscii4(4phinger maths) hscii5" "" "regular" "" "" "wersion 0.0000" "" "hscii5/4 fonts 5/4phingrmaths" "simbxls hscii github zawa8" "wimxl kumar merged and changed fonts" "merged changed by zawa8 pff(python fontforge)" "https://github.com/zawa8/font" "https://github.com/zawa8/pff" "license file present in : https://github.com/zawa8/font/" "https://github.com/zawa8/font"
+LangName: 16393 "" "" "" "heksenglodotw8asc 0.000;zawa;hscii5 binaryw15s-regular" "" "wersion 0.0000" "" "hscii5/4 fonts 5/4phingrmaths" "simbAls hscii4 github zawa8" "wimxl kumar merged and changed fonts" "merged changed by zawa8 pff(python fontforge)" "https://github.com/zawa8/font" "https://github.com/zawa8/pff" "please ask phur help/kuery at: https://github.com/zawa8/font/" "https://github.com/zawa8/font"
 GaspTable: 1 65535 15 1
-OtfFeatName: 'ss07' 1033 "iota adscript"
-OtfFeatName: 'ss06' 1033 "Accented Greek SC"
-OtfFeatName: 'ss04' 1033 "Titling Alternates I and J for titling and all cap settings"
 OtfFeatName: 'ss03' 1033 "florin symbol"
+OtfFeatName: 'ss04' 1033 "Titling Alternates I and J for titling and all cap settings"
+OtfFeatName: 'ss06' 1033 "Accented Greek SC"
+OtfFeatName: 'ss07' 1033 "iota adscript"
 Encoding: UnicodeFull
 UnicodeInterp: none
 NameList: AGL For New Fonts
