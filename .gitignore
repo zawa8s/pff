@@ -4,6 +4,9 @@ fdrm/
 del/
 ../del/
 */del
+zip/
+../zip/
+*/zip
 diliit/
 *.tar.xz
 *.tar
