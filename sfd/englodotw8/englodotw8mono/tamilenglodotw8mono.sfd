@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1485160965
-ModificationTime: 1744983539
+ModificationTime: 1745155675
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -95,9 +95,10 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
+WinInfo: 54 27 9
 BeginPrivate: 0
 EndPrivate
-BeginChars: 1114216 98
+BeginChars: 1114216 97
 
 StartChar: NULL
 Encoding: 0 0 0
@@ -2343,7 +2344,7 @@ EndChar
 StartChar: J
 Encoding: 74 74 50
 Width: 600
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -3122,7 +3123,7 @@ EndChar
 StartChar: Q
 Encoding: 81 81 57
 Width: 600
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -4525,7 +4526,7 @@ EndChar
 StartChar: j
 Encoding: 106 106 76
 Width: 600
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -4872,7 +4873,7 @@ EndChar
 StartChar: q
 Encoding: 113 113 83
 Width: 600
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -5132,7 +5133,7 @@ EndChar
 StartChar: v
 Encoding: 118 118 88
 Width: 600
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -5245,7 +5246,7 @@ EndChar
 StartChar: w
 Encoding: 119 119 89
 Width: 600
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -5381,7 +5382,7 @@ EndChar
 StartChar: x
 Encoding: 120 120 90
 Width: 600
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -5905,27 +5906,6 @@ SplineSet
  187.200195312 765.75 187.200195312 765.75 176.400390625 781.150390625 c 5,11,-1
  176.400390625 792.150390625 l 5,12,-1
  304.799804688 792.150390625 l 5,0,1
-EndSplineSet
-EndChar
-
-StartChar: uni0087
-Encoding: 135 135 97
-Width: 600
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-40.8408203125 0.0361328125 m 5,0,-1
- 40.8408203125 69.44921875 l 5,1,-1
- 449.434570312 531.446289062 l 5,2,-1
- 57.5595703125 531.446289062 l 5,3,-1
- 57.5595703125 609.963867188 l 5,4,-1
- 550.799804688 609.963867188 l 5,5,-1
- 550.799804688 529.171875 l 5,6,-1
- 152.654296875 86.517578125 l 5,7,-1
- 559.159179688 86.517578125 l 5,8,-1
- 559.159179688 0.0361328125 l 5,9,-1
- 40.8408203125 0.0361328125 l 5,0,-1
 EndSplineSet
 EndChar
 EndChars
